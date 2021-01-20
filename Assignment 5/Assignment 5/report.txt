@@ -1,0 +1,20 @@
+Eunhee Kim
+CSS 343
+Hash Table Report
+June 12, 2020
+
+The results from my program shows a printed output of the size, minimum+maximum collisions, 
+and number of empty array elements in the hashtable.
+I have first provided a visual representation of each numbered bucket index with the chain of 
+keys that link to the same value of index when inserting. Each time after the first key is
+inserted within the index, it will count up the amount of collisions in that bucket.
+The second information provided represents the number of buckets that limit where the keys
+will be added within the array, also known as the array size.
+The third and fourth information is the maximum and minimum counts of collisions. This represents
+a record of the maximum and minimum counts of collisions overall within the provided amount of
+buckets. Whenever a bucket contains more than one key for that index, it is considered a collision.
+This also means if we use a function to call by the index of an array and see what keys are contained in
+it, you will end with more than one key if there are multiple collisions from that index.
+Lastly, the final information is the number of elements with no data. This is counted by observing
+each area of the array by index, to check if they do not contain any keys from that bucket. If it
+is empty, it will count up the records for this information of empty buckets.
